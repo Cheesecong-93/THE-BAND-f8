@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE BAND</title>
+    <link rel="icon" href="https://icons8.com/icon/9918/website" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.7.2-web/css/all.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header" class="Header js_header">
+            <!--Begin navigation-->
+            <ul id="navigation">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#band">BAND</a></li>
+                <li><a href="#tour">TOUR</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li>
+                    <a href="#">
+                        MORE 
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <ul class="subnavigation">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--End navigation-->
+
+            <!--Begin search button-->
+            <div class="search-button">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="mobile_menu js_mobile_menu">
+                <i class="menu_icon fa-solid fa-bars"></i>
+            </div>
+            <!--End search button-->
+        </div>
+
+        <div id="slider">
+            <div class="text">
+                <h2 class="text_heading">NEW YORK</h2>
+                <div class="text_description">We had the best time playing at Venice Beach!</div>
+            </div>
+        </div>
+
+        <div id="content">
+            <!--About section-->
+            <div id="band" class="content_section">
+                <h2 class="content_heading">THE BAND</h2>
+                <p class="content_sub_heading">We love music</p>
+                <p class="about">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <div class="row member_list">
+                    <div class="member_iteam column column_third">
+                        <p class="member_name">Name</p>
+                        <img src="./assets/image/band_member/bandmember.jpg" alt="Name" class="member_avatar">
+                    </div>
+
+                    <div class="member_iteam column column_third">
+                        <p class="member_name">Name</p>
+                        <img src="./assets/image/band_member/bandmember.jpg" alt="Name" class="member_avatar">
+                    </div>
+
+                    <div class="member_iteam column column_third">
+                        <p class="member_name">Name</p>
+                        <img src="./assets/image/band_member/bandmember.jpg" alt="Name" class="member_avatar">
+                    </div>
+                </div>
+            </div>
+
+            <!--Tour section-->
+            <div id="tour" class="tour_section">
+                <div class="content_section">
+                    <h2 class="content_heading text_white">TOUR DATES</h2>
+                    <p class="content_sub_heading text_white">Remember to book your tickets!</p>
+
+                    <ul class="book_ticket">
+                        <li>September <span class="sold_out">Sold out</span></li>
+                        <li>October <span class="sold_out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+
+                    <div class="row tour_places">
+                        <div class="place_iteam column column_third">
+                            <img src="/assets/image/tour_place/newyork.jpg" alt="NEW YORK" class="tour_img">
+                            <div class="place_content">
+                                <h4 class="place_heading">New york</h3>
+                                <p class="place_time">Fri 27 Nov 2025</p>
+                                <p class="place_description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="s-full-width buy_button js_buy_button">Buy tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="place_iteam column column_third">
+                            <img src="/assets/image/tour_place/paris.jpg" alt="NEW YORK" class="tour_img">
+                            <div class="place_content">
+                                <h4 class="place_heading">Paris</h3>
+                                <p class="place_time">Sat 28 Nov 2025</p>
+                                <p class="place_description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="s-full-width buy_button js_buy_button">Buy tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="place_iteam column column_third">
+                            <img src="/assets/image/tour_place/sanfran.jpg" alt="NEW YORK" class="tour_img">
+                            <div class="place_content">
+                                <h4 class="place_heading">San fransico</h3>
+                                <p class="place_time">Sun 29 Nov 2025</p>
+                                <p class="place_description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="s-full-width buy_button js_buy_button">Buy tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--modal buy ticket-->
+                <div class="modal js_modal">
+                    <div class="modal_container js_modal_container">
+                        <div class="modal_close js_modal_close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+    
+                        <header class="modal_header">
+                            <i class="fa-solid fa-ticket-simple"></i>
+                            Tickets
+                        </header>
+    
+                        <div class="modal_body">
+                            <label for="" class="modal_laybel">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Tickets, $15 per person
+                            </label>
+                            <input type="text" class="modal_input" placeholder="How many?">
+    
+                            <label for="" class="modal_laybel">
+                                <i class="fa-solid fa-user"></i>
+                                Send To
+                            </label>
+                            <input type="email" class="modal_input" placeholder="Enter email">
+
+                            <button class="pay_button">
+                                PAY
+                                <i class="fa-solid fa-check"></i>
+                            </button>
+                        </div> 
+    
+                        <div class="modal_fotter">
+                            <button class="close_button js_close_button">
+                                Close
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                            <a href="" class="modal_help">Need help?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Contact section-->
+            <div id="contact" class="content_section">
+                <h2 class="content_heading">CONTACT</h2>
+                <p class="content_sub_heading">Fan? Drop a note!</p>
+
+                <div class="row contact_content">
+                    <div class="column column_half contact_info">
+                        <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
+                        <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                        <p><i class="fa-solid fa-envelope"></i>Email: tacongchi071006@gmail.com</p>
+                    </div>
+                    <div class="column column_half contact_form">
+                        <form action="">
+                            <div class="row">
+                                <div class="column column_half">
+                                    <input type="text" name="" placeholder="Name" required id="" class="form_control">
+                                </div>
+                                <div class="column column_half">
+                                    <input type="email" name="" placeholder="Email" required id="" class="form_control">
+                                </div>
+                            </div>
+                            
+                            <div class="row margin_top_8">
+                                <div class="column column_full">
+                                    <input type="text" name="" placeholder="Message" required id="" class="form_control">
+                                </div>
+                            </div>
+                            <input type="submit" value="SEND" class="s-full-width submit_button">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map_section">
+                <img src="/assets/image/map/map.jpg" alt="Map">
+            </div>
+        </div>
+
+        <div id="fotter">
+            <div class="text_center social">
+                <a href=""><i class="social_icon fa-facebook"></i></a>
+                <a href=""><i class="social_icon fa-brands fa-github"></i></a>
+                <a href=""><i class="social_icon fa-brands fa-youtube"></i></a>
+                <a href=""><i class="social_icon fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="social_icon fa-brands fa-instagram"></i></a>
+                <a href=""><i class="social_icon fa-brands fa-twitter"></i></a>
+            </div>
+            <p class="text_center copyright">Powered by <a href="">cheesecong</a></p>
+        </div>
+    </div>
+
+    <script>
+        const buybuttons = document.querySelectorAll('.js_buy_button')
+        const modal = document.querySelector('.js_modal')
+        const close_button = document.querySelector('.js_close_button')
+        const modal_close = document.querySelector('.js_modal_close')
+        const modal_container = document.querySelector('.js_modal_container')
+
+        const mobile_menu = document.querySelector('.js_mobile_menu')
+        const header = document.querySelector('.js_header')
+        
+        function showBuyticket() {
+            modal.classList.add('open')
+        }
+
+        function closeBuyticket() {
+            modal.classList.remove('open')
+        }
+
+        function displayMobileheader() {
+            header.classList.toggle('display')
+        }
+
+        for (const buybutton of buybuttons) {
+            buybutton.addEventListener("click", showBuyticket)
+        }
+
+        close_button.addEventListener("click", closeBuyticket)
+        modal_close.addEventListener("click", closeBuyticket)
+        modal.addEventListener("click", closeBuyticket)
+        mobile_menu.addEventListener("click", displayMobileheader)
+        modal_container.addEventListener("click", function(event) {
+            event.stopPropagation()
+        })    
+        
+        // dong menu khi chon vao mot muc
+        var menuIteams = document.querySelectorAll('#navigation li a[href*="#"]')
+        for(var i = 1; i < menuIteams.length; i++) {
+            var menuIteam = menuIteams[i];
+            var isParentMenu = menuIteam.nextElementSibling && menuIteam.nextElementSibling.classList.contains('subnavigation')
+            if(isParentMenu) {
+                    menuIteam.addEventListener("click", function(event) {
+                    event.preventDefault();
+                })
+            } else {
+                menuIteam.addEventListener("click", displayMobileheader)
+            }
+        }
+    </script>
+</body>
+</html>
+
