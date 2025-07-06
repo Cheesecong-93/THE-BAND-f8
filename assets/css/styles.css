@@ -618,7 +618,7 @@ html {
 
     .contact_content .submit_button {
         padding: 16px 18px;
-        -webkit-appearance: none;
+        appearance: none;
     }
 
     .contact_form {
@@ -627,6 +627,7 @@ html {
 
     .contact_form .form_control {
         padding: 11px;
+        appearance: none;
     }
 
     .social_icon {
