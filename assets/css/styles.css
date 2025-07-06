@@ -572,6 +572,11 @@ html {
         display: inline-block;
     }
 
+    #navigation > li:first-child:hover > a {
+        color: #fff;
+        background-color: #000;
+    }
+
     #navigation .subnavigation {
         position: inherit;
         background-color: #333;
@@ -613,6 +618,7 @@ html {
 
     .contact_content .submit_button {
         padding: 16px 18px;
+        -webkit-appearance: none;
     }
 
     .contact_form {
