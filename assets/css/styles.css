@@ -623,6 +623,7 @@ html {
         -webkit-appearance: none;
         font-size: 16px;
         border-radius: 0;
+        font-weight: 400;
     }
 
     .contact_form {
