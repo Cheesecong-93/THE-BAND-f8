@@ -622,8 +622,7 @@ html {
         appearance: none;
         -webkit-appearance: none;
         font-size: 16px;
-        border-radius: none;
-
+        border-radius: 0;
     }
 
     .contact_form {
@@ -636,7 +635,7 @@ html {
         appearance: none;
         -webkit-appearance: none;
         font-size: 16px;
-        border-radius: none;
+        border-radius: 0;
     }
 
     .social_icon {
