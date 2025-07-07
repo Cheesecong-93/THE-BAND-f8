@@ -618,17 +618,25 @@ html {
 
     #contact .contact_content .submit_button {
         padding: 16px 18px;
+
         appearance: none;
         -webkit-appearance: none;
+        font-size: 16px;
+        border-radius: none;
+
     }
 
     .contact_form {
         margin-top: 16px;
     }
 
-    .contact_form .form_control {
+    #contact .contact_form .form_control {
         padding: 11px;
+
         appearance: none;
+        -webkit-appearance: none;
+        font-size: 16px;
+        border-radius: none;
     }
 
     .social_icon {
