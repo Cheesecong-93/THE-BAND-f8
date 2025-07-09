@@ -376,7 +376,9 @@ html {
     padding: 8px;
     width: 100%;
     line-height: 24px;
-    opacity: 0.6;
+    opacity: 0.4;
+    font-size: 16px;
+    border-radius: 0;
 }
 
 .modal .pay_button {
@@ -648,6 +650,5 @@ html {
     #fotter .copyright a {
         font-size: 19px;
         padding: 12px 0;
-        
     }
 }
